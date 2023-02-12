@@ -1,0 +1,23 @@
+{
+    "short_name": "MUSIC",
+    "name": "My Music App",
+    "start_url": "/",
+    "id": "/",
+    "display": "standalone",
+    "background_color": "#E1E1E2",
+    "theme_color": "#80CE17",
+    "icons": [
+        {
+            "src": "pkg/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "pkg/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "any"
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/manifest.json">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="js/script.js"></script>
+    <script src="js/sw-script.js"></script>
+
+</head>
+<body>
+    
+    <div class="main-container">
+        <header>
+            <div class="header">
+                <img src="/images/music-note.png" alt="Music App">
+                <h1>My Music App</h1>
+            </div>
+        </header>
+    
+        <div class="div-container">
+                <h2>NEW SONG</h2>
+        </div>
+    
+        <form>
+            <div class="form-data">
+                <label class="title" for="name"><b>Title: </b></label>
+                <input type="text" id="title" name="title" placeholder="Input title">
+            </div>
+    
+            <div class="form-data">
+                <label class="title" for="artist"><b>Artist: </b></label>
+                <input type="text" id="artist" name="artist" placeholder="Input artist">
+            </div>
+    
+            <input type="button" id="submit" class="addbutton" value="Add" onclick="printOutput()">
+    
+            <div class="div-container">
+                <h2>LIST OF SONGS</h2>
+            </div>
+    
+            <div class="form-data">
+                <p id="output"></p> 
+            </div>
+    
+    
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+
